@@ -1,0 +1,219 @@
+*{
+    font-family: 'Kanit';
+
+}
+
+#div-banner {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    h1 {
+        font-size: 48px;
+        position: absolute;
+        top: 0px;
+        left: 80px;
+        color: rgba(255, 255, 255, 0.851);
+        z-index: 3;
+        min-height: 20px;
+        visibility: visible;
+        opacity: 100% !important;
+        font-family: 'Kanit';
+
+        span {
+            color: #f1f1f1;
+            font-size: 64px;
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent;
+        }
+    }
+
+}
+
+#banner {
+    width: 100vw;
+    height: calc(100vh - 64px);
+}
+
+.div-titulo {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    .borda {
+        height: 0px;
+        width: 20vw;
+        border: 2px #ff7e5f solid;
+        border-radius: 4px;
+        background-color: #ff7e5f;
+        margin: 20px;
+    }
+
+    h1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Kanit';
+        font-size: 32px;
+        background: linear-gradient(90deg, #c501e2, #feb47b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+.descricao {
+    font-size: 24px;
+    max-width: 70vw;
+    text-align: left;
+    font-family: 'Kanit';
+    color: rgb(210, 210, 210);
+
+    margin-top: 140px;
+
+    p {
+        margin-bottom: 90px;
+    }
+
+    span {
+        border-bottom: 2px solid #c501e2;
+    }
+}
+
+/* .titulo-card{
+
+} */
+
+.titulo-card {
+
+    margin-left: 25vw;
+    margin-bottom: 40px;
+    color: white;
+    font-family: 'Kanit';
+    font-weight: normal;
+
+}
+
+.titulo-card-direita {
+    font-family: 'Kanit';
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: 10vw !important;
+    max-width: 500px;
+    margin-bottom: 40px;
+    color: white;
+
+}
+
+.card-arte,
+.card-arte-direita {
+    width: 768px;
+    height: 300px;
+    cursor: pointer;
+
+
+    color: rgb(222, 222, 222);
+    display: flex;
+    align-items: center;
+
+    border: 2px solid #6a047a;
+    border-radius: 0px 8px 8px 0px;
+    margin-left: 10vw;
+    margin-bottom: 100px;
+    padding: 20px;
+
+    font-family: 'Kanit';
+    font-size: 18px;
+
+    transition: 0.5s;
+
+    img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: top center;
+        margin-right: 32px;
+        margin-left: -100px;
+        border-radius: 8px;
+        border: 2px solid #6a047a;
+        opacity: 90%;
+
+    }
+
+
+}
+
+.card-arte-direita {
+
+    margin-left: auto;
+    margin-right: 10vw !important;
+    border-radius: 8px 0px 0px 8px;
+
+    img {
+        margin-left: 32px;
+        margin-right: -100px;
+    }
+}
+
+.card-arte:hover,
+.card-arte-direita:hover {
+    scale: 1.2;
+}
+#fotos-arte-principal{
+    img{
+        filter: brightness(0.8);
+        margin: 5vw;
+        border: 3px #6a047a;
+        border-style: solid;
+        scale: (1.1);
+    }
+    img:hover{
+        cursor: pointer;
+        transition: 0.5s;
+        scale: 1.1;
+    }
+}
+
+#arte-moderna-principal{
+    color: black;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 4px;
+    width: 80vw;
+    text-align: center;
+}
+
+/* FIM ARTE MODERNA */
+
+/* COMECO DRUMONT */
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .card-arte,
+    .card-arte-direita {
+        justify-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        scale: 0.8;
+    }
+
+    .card-arte:hover,
+    .card-arte-direita:hover {
+        scale: 0.9;
+    }
+
+    .titulo-card , .titulo-card-direita{
+        text-align: center;
+        margin: 0!important;
+        padding: 0;
+        max-width: 100vw;
+    }
+
+}

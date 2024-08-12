@@ -1,0 +1,62 @@
+#Header {
+    position: fixed;
+    width: 100vw;
+    background-color: #000000;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    border-bottom: 2px solid #c501e2;
+}
+
+#Header #Header-content {
+    display: flex;
+    flex-direction: row;
+    width: 768px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Header #Header-content a {
+
+    font-size: 1.2em;
+    color: #fff;
+    font-family: 'Kanit';
+    font-weight: 300;
+    cursor: pointer;
+    transition: filter 0.5s ease;
+
+    /*Parte que vai definir a barra em baixo com o hover  */
+
+    --c: linear-gradient(#c501e2 0 0);
+    background: var(--c), var(--c);
+    background-size: .0em .1em;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    transition: .3s linear, background-size .3s .2s linear;
+}
+
+#Header #Header-content a.destaque {
+
+    background-color: #850699;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+#Header #Header-content a.comum:hover {
+    filter: brightness(80%);
+}
+
+#Header #Header-content a.destaque:hover {
+    filter: brightness(80%);
+}
+
+
+/*  ANIMAÇÃO EMBAIXO DA PALAVRA */
+
+#Header #Header-content a.comum:hover {
+    background-size: 50% .1em;
+    background-position: 10% 100%, 100% 100%;
+}
