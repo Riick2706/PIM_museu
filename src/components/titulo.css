@@ -1,0 +1,27 @@
+div.Titulo{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 500px;
+    height: 7px;
+    border: none;
+    background: #feb37c;
+    border-radius: 4px;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Kanit';
+    font-weight: 600;
+    width: 600px;
+    background-image: linear-gradient(to right, #c707dd, #fcad7f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: 350px;
+    margin-right: 300px;
+}
