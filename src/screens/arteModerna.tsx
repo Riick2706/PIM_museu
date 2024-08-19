@@ -8,16 +8,16 @@ export default function ArteModerna() {
         <>
             <Titulo Texto={"100 anos da semana da arte moderna"} />
 
-            <div className="div-cards-horizontal">
+            <section className="div-cards-horizontal">
                 <Fade cascade triggerOnce>
 
-                    <img src="card-arte-1.webp" alt="Cartaz exposição semana de arte moderna 1922" />
-                    <img src="card-arte-2.webp" alt="Cartaz de divulgação semana da arte moderna 1922" />
-                    <img src="card-arte-3.webp" alt="Convite ao Theatro municipal 1922 villa lobos" />
+                    <img src="/arte/card-arte-1.webp" alt="Cartaz exposição semana de arte moderna 1922" />
+                    <img src="/arte/card-arte-2.webp" alt="Cartaz de divulgação semana da arte moderna 1922" />
+                    <img src="/arte/card-arte-3.webp" alt="Convite ao Theatro municipal 1922 villa lobos" />
                 </Fade>
 
 
-            </div>
+            </section>
 
             <Fade triggerOnce>
                 <div className="Banner-informativo">
@@ -26,7 +26,8 @@ export default function ArteModerna() {
 
                 </div>
             </Fade>
-            <div className="div-cards-verticais">
+
+            <section className="div-cards-verticais">
 
                 <Slide triggerOnce duration={1000}>
                     <div id="card-vertical-1" className="Card-vertical">
@@ -40,7 +41,7 @@ export default function ArteModerna() {
                         <div className="Card-info">
 
                             <h4> A arte moderna, ao completar um século de existência, revela-se de extrema importância por sua ruptura radical com os padrões artísticos estabelecidos anteriormente. Surgindo no final do século XIX e florescendo ao longo do século XX, a arte moderna rejeitou as convenções acadêmicas e tradicionais que dominavam a arte ocidental há séculos. Em vez de retratar a realidade de maneira idealizada, os artistas modernos buscaram novas formas de expressão que refletissem a crescente complexidade e fragmentação da vida moderna. Movimentos como o cubismo, o expressionismo, o surrealismo e o dadaísmo foram apenas alguns dos muitos movimentos que desafiaram as normas estéticas e conceituais da época.</h4>
-                            <img src="arte_moderna_1.webp" alt="" />
+                            <img src="/arte/arte_moderna_1.webp" alt="" />
 
                         </div>
                     </div>
@@ -57,7 +58,7 @@ export default function ArteModerna() {
 
                         <div className="Card-info">
 
-                            <img src="arte_moderna_2.webp" alt="" />
+                            <img src="/arte/arte_moderna_2.webp" alt="" />
                             <h4> O surgimento da arte moderna não pode ser separado dos tumultuosos eventos históricos que marcaram o século XX. A Primeira Guerra Mundial, seguida pela Segunda Guerra Mundial, trouxe consigo devastação, desilusão e uma profunda transformação na visão de mundo. A industrialização, urbanização e os avanços tecnológicos também moldaram a paisagem cultural e social, influenciando diretamente a arte. Movimentos como o futurismo capturaram o espírito da era industrial, enquanto o surrealismo explorou o inconsciente e o absurdo em resposta aos traumas da guerra. A arte moderna tornou-se um reflexo das mudanças rápidas e muitas vezes desconcertantes que caracterizaram o século XX, desafiando as expectativas e convidando o espectador a questionar não apenas a arte, mas também o mundo ao seu redor.</h4>
 
                         </div>
@@ -76,12 +77,12 @@ export default function ArteModerna() {
                         <div className="Card-info">
 
                             <h4>No cenário contemporâneo, a influência da arte moderna continua a ser profundamente sentida. Seus princípios de experimentação, individualismo e crítica social inspiraram inúmeros artistas e movimentos subsequentes. O minimalismo, por exemplo, simplifica a forma e a cor em uma reação direta ao excesso visual da sociedade contemporânea, enquanto o pop art utiliza imagens do cotidiano para questionar as fronteiras entre alta cultura e cultura popular. Além disso, a arte conceitual desafia as próprias definições de arte, colocando ênfase nas ideias por trás da obra em vez de sua forma física. A arte moderna continua a desempenhar um papel crucial no desafio às normas estéticas e sociais, expandindo os limites da criatividade humana e fornecendo um meio para a expressão de novas perspectivas e críticas sobre a sociedade contemporânea.</h4>
-                            <img src="arte_moderna_3.webp" alt="" />
+                            <img src="/arte/arte_moderna_3.webp" alt="" />
 
                         </div>
                     </div>
                 </Slide>
-            </div>
+            </section>
         </>
     )
 }
