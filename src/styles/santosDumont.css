@@ -1,0 +1,75 @@
+.banner-dumont {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+}
+
+.info-banner {
+    width: calc(1920px - 1080px);
+    height: 720px;
+    background-color: #1c1c1c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2,
+h3 {
+    font-family: 'Inter';
+    margin: 0;
+    color: rgb(236, 235, 235);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    padding: 24px 48px;
+}
+
+
+#wright-dumont {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#cards-dumont {
+    margin-top: 200px;
+    position: absolute;
+    height: 720px;
+    overflow: hidden;
+    padding-bottom: 200px;
+
+}
+
+#cards-dumont div.box-card {
+    position: absolute;
+    top: 0;
+    display: flex;
+    height: 720px;
+    overflow: hidden;
+}
+
+#cards-dumont img{
+    z-index: 2;
+    position: relative;
+}
+
+#cards-dumont .box-card img {
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale(100);
+    transition: 0.5s;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+#cards-dumont .box-card img:hover {
+
+    filter: grayscale(0)
+}
